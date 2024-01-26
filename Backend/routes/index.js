@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-router.get('/date', (req, res) => {
+router.get('/year', (req, res) => {
   const date = new Date().getFullYear().toString();
   res.json({ year: date });
 });
