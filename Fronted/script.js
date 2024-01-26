@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/date')
+fetch('https://whatyearisit-nu-drab.vercel.app//date')
     .then(response => response.json())
     .then(year => {
         ;
