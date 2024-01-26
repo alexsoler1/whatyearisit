@@ -1,4 +1,4 @@
-fetch('https://whatyearisit-nu-drab.vercel.app//date')
+fetch('https://whatyearisit-nu-drab.vercel.app/date')
     .then(response => response.json())
     .then(year => {
         ;
